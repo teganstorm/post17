@@ -1,0 +1,14 @@
+Problems during development:
+
+Problems with database connection
+login & register form not working properly for some time
+Feed took some time to work properly 3/3/21 ??
+Problems with primary and foreign keys in database
+
+#Layout
+{   Problems with aligning elements of the page (in general problems with setting out layout of the page)
+    Older version of bootstrap (Bootstrap 3) had to make changes to all code to work with Boostrap 5. 
+    include files had to be redone -----06/03/2021
+}
+    
+
