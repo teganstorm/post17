@@ -1,0 +1,160 @@
+
+#namebanner {
+    position: fixed;
+    width: 20%;
+    left: 40%;
+    top: 0%;
+}
+
+#loginbutton, #createaccountbutton {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 22px;
+    width: 40%;
+    height: 10%;
+}
+#loginbutton {
+    position: fixed;
+    top: 0px;
+    left: 20%;
+    border: lightgray;
+    background-color: lightgray;
+}
+#createaccountbutton {
+    position: fixed;
+    top:0px;
+    left: 60%;
+    border: whitesmoke;
+    background-color: white;
+}
+#loginbutton:hover, #createaccountbutton:hover {
+    background-color: grey;
+    color: #ffff98;
+}
+#body {
+    background-color: white;
+}
+
+#emailtext, #email, #usernametext, #username, 
+#fnametext, #fname, #lnametext, #lname, #birthtext, #birth,
+#passwordtext, #password, #repasswordtext, #repassword,
+#inputbutton {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    height:5%;
+}
+
+#fnametext {
+    position: fixed;
+    width: 100%;
+    top:200px;
+    left: 25%;
+}
+
+#fname{
+    position: fixed;
+    width: 50%;
+    top: 220px;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+
+#lnametext {
+    position: fixed;
+    width: 100%;
+    top:200px;
+    left: 25%;
+}
+
+#lname{
+    position: fixed;
+    width: 50%;
+    top: 220px;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+#emailtext {
+    position: fixed;
+    width: 100%;
+    top:200px;
+    left: 25%;
+}
+#email{
+    position: fixed;
+    width: 50%;
+    top: 220px;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+#usernametext {
+    position: fixed;
+    width: 100%;
+    top:280px;
+    left: 25%;
+}
+#username{
+    position: fixed;
+    width: 50%;
+    top: 300px;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+#passwordtext {
+    position: fixed;
+    width: 100%;
+    top:360px;
+    left: 25%;
+}
+#password {
+    position: fixed;
+    width: 50%;
+    top: 380px;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+#repasswordtext {
+    position: fixed;
+    width: 100%;
+    top: 440px;
+    left: 25%;
+}
+#repassword {
+    position: fixed;
+    width: 50%;
+    top: 460px;
+    left: 25%;
+    border: 3px solid lightgrey;
+}
+#inputbutton {
+    position: fixed;
+    width: 50%;
+    top: 520px;
+    left: 25%;
+    text-align: center;
+    background-color: #ccff98;
+    border: 3px solid lightgray;
+    color: black;
+
+}
+#inputbutton:hover {
+    background-color: gray;
+    color: #ccff98;
+}
+#login {
+    position: fixed;
+    top: 560px;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#fname {
+    left: 0px;
+    top: 100px;
+}
+#lname {
+    left: 0px;
+    top: 200px; 
+}

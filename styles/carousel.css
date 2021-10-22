@@ -1,0 +1,40 @@
+.carousel { z-index: -99; } /* keeps this behind all content */
+.carousel .item {
+    
+    position: fixed; 
+    width: auto;
+    height: auto;
+    transition: transform 100s linear, opacity .5s linear;
+
+}
+.carousel .one {
+    background-size: cover;
+    -moz-background-size: cover;
+    opacity: 0.5;
+}
+.carousel .two {
+    background-size: cover;
+    -moz-background-size: cover;
+    opacity: 0.5;
+}
+.carousel .three {
+    background-size: cover;
+    -moz-background-size: cover;
+    opacity: 0.5;
+}
+.carousel .active .left {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
+
+.static {
+    position: fixed; 
+    width: auto;
+    height: auto;
+    z-index: -99;
+    background-size: cover;
+    -moz-background-size: cover;
+    opacity: 0.5;
+}
+
